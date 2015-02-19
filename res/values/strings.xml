@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">YouTubeExtreme</string>
+     <string name="local_service_started">Sertive started</string>
+    <string name="local_service_stopped">Service stopped</string>
+    <string name="local_service_label">Service label</string>
+    <string name="youtubevideoid">YouTube Video ID</string>
+    <string name="viewVideoButton">View Using Youtube Extreme!</string>
+    <string name="defaultYoutubeVideoId">EE8L2VNf6sw</string>
+    <string name="proxysetup">Connect through proxy</string>
+    <string name="proxyip">Proxy IP:</string>
+    <string name="proxyport">Proxy Port:</string>
+    <string name="proxybutton">Set Proxy</string>
+
+</resources>

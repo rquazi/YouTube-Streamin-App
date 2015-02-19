@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical" >
+    
+    <TextView android:text="@string/proxysetup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/proxylabel"></TextView>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/proxyip" />
+
+            <EditText
+                android:id="@+id/proxyiptext"
+                android:layout_width="fill_parent"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/proxyport" />
+
+            <EditText
+                android:id="@+id/proxyporttext"
+                android:layout_width="fill_parent"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:text="0" >
+
+                <requestFocus />
+            </EditText>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/youtubeIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/youtubevideoid" />
+
+    <EditText
+        android:id="@+id/youtubeIdText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultYoutubeVideoId" />
+
+    <Button
+        android:id="@+id/viewVideoButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewVideoButton" />
+
+</LinearLayout>
